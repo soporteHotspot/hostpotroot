@@ -11,7 +11,7 @@ $(document).ready(function () {
                 method: "POST",
                 dataType: "html",                 
                 success: function (data) {    swal.close();               
-          $('#contbody').html(data);            
+          //$('#contbody').html(data);            
           $('#loader').html("");                    
         //  $('#dataTableusersactive').DataTable({ responsive: true });    
          
