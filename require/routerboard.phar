@@ -1,0 +1,32 @@
+<?php
+
+
+
+session_start(); 
+$ip=$_SESSION['ip'];
+$Usuario=$_SESSION['username'];
+$password=$_SESSION['password'];
+$puerto=$_SESSION['puerto'];
+
+$include = '../require/routeros_api.class.php';
+
+if (file_exists($include)) {
+require_once($include);
+//Use any PEAR2_Net_RouterOS class from here on
+
+$API = new RouterosAPI();
+
+$API->debug =false;
+$API->port = $puerto;
+
+
+
+}
+
+
+
+
+ ?>
+ 
+ 
+ 

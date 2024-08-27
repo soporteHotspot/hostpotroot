@@ -1,0 +1,120 @@
+ .contenedor{
+  width: 100%;
+min-width: 400px;
+   max-width: 792px;
+   margin:  auto;
+} 
+.line-clamp-3 { 
+color:blue;
+
+margin-right:0px;
+  margin-top: 0px;
+  margin-bottom: 1px;
+background-color: rgba(0,0,0,0);
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; margin-left:2px;}
+ 
+.flex { 
+  display: flex;
+}
+.h-24 {
+  height: 70px;
+}
+
+.w-24 {
+  width: 70px;
+}
+.w-72 {
+  width: 18rem;
+}
+
+.w-33 {
+  width: 32%;
+}
+.h-40 {
+  margin: 1px;
+  height: auto;
+  min-width: 240px;
+  border: 1px dotted black;
+  font-size:12px
+    
+}
+.shrink-0 {
+  flex-shrink: 0;
+}
+.flex-col {
+  flex-direction: column;
+
+}
+.justify-center {
+  justify-content: center;
+}
+.gap-2 { display: inline-block;
+  gap: 0.5rem;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.tarjeta {
+  --tw-bg-opacity: 1;
+
+ background-image: url("https://media.istockphoto.com/id/543336084/es/foto/silueta-torres-de-telecomunicaciones-con-antenas-de-tv-antena-parab%C3%B3lica-al-atardecer.jpg?s=612x612&w=0&k=20&c=hQch71XVY_6JbABNt8Mfg8iuDbecnR3n8cWMMsK6_Dc=");
+   background-position: center center;
+   background-repeat: no-repeat;
+   color:#000;
+   background-attachment: relative;
+   background-size: cover;
+   border-radius:6px;
+   width:250px; 
+   height: auto;
+   border:1px solid #000000;
+ 
+}
+.encabezado {
+  --tw-bg-opacity: 1;
+background: linear-gradient(-10deg, rgba(255, 0, 0,0.2 ) 20%, rgba(0, 0, 0,0.1 ) 50%);
+ color:black;
+
+  text-align: center;
+}
+.qrlogo{
+  --tw-bg-opacity: 1;
+
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.font-bold {
+  font-weight: 700;
+  margin-left:2px;
+}
+.italic {
+  font-style: italic;
+}
+.text-indigo-500 {
+  --tw-text-opacity: 1;
+ 
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+    0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.hover\:bg-purple-300:hover {
+  --tw-bg-opacity: 1;
+ 
+}
+ 
+
+
+ 

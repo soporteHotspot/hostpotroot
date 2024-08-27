@@ -1,0 +1,50 @@
+.tabla{  
+
+	width: 98%;
+	margin: 2px;
+
+	 border: none;
+	  
+}
+td{
+
+width: auto;
+ font-size: 18px;
+border:1px solid orange;
+text-align: center;
+margin-bottom: 2px;
+
+
+}
+.code-QR{
+
+width:130px;
+margin:auto;
+  
+
+}
+
+.logo{
+
+
+width: 100%;
+	
+}
+table.qr
+{
+	border-collapse: collapse;
+	border: solid 1px black;
+	table-layout: fixed;
+}
+
+table.qr td
+{
+	width: 5px;
+	height: 5px;
+	font-size: 2px;
+}
+
+table.qr td.on
+{
+	background: #000999;
+}

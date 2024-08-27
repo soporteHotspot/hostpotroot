@@ -1,0 +1,27 @@
+.tabla{
+
+	width: 100%;
+	border:1px solid black;
+	 height: auto;
+
+}
+td{
+
+ 
+padding: 1px;
+border:1px solid orange;
+text-align: center;
+
+}
+.code-QR{
+
+width: 80px;
+
+}
+
+.logo{
+
+
+width: 70px;
+	
+}

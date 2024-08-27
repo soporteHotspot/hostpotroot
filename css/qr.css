@@ -1,0 +1,19 @@
+table.qr
+{
+    width: 100px;
+    height: 100px;
+}
+
+table.qr td
+{
+    width:3px;
+    height: 2px;
+   
+}
+
+table.qr td.on
+{
+    background: #000999;
+}
+
+	 
